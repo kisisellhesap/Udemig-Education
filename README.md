@@ -4,4 +4,4 @@ Hello everyone. Thanks to the course I took on Udemig, I added a new one to my p
 
 # Short Gif
 
-![](UdemiEeducation.gif)
+![](UdemigEducation.gif)
