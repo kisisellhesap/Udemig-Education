@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Udemig Education</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/x-icon" href="./images/Udemig.png" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-light" href="#">
+          <img
+            src="./images/Udemig.png"
+            class="img-fluid"
+            style="width: 60px"
+            alt="Udemig"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <i class="bx bx-menu-alt-right navbar-toggler-icon"></i>
+        </button>
+
+        <div
+          id="offcanvasNavbar"
+          class="offcanvas offcanvas-end navbar-collapse"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            >
+              <i class="bx bx-x"></i>
+            </button>
+          </div>
+
+          <div class="navbar-nav d-flex gap-1 offcanvas-body">
+            <a
+              class="nav-link active text-light"
+              aria-current="page"
+              href="#home"
+              >Ana Sayfa</a
+            >
+            <a class="nav-link text-light" href="#services">Servisler</a>
+            <a class="nav-link text-light" href="#about">Hakkımızda</a>
+            <a class="nav-link text-light" href="#customers">Müşteriler</a>
+            <a class="nav-link text-light" href="#contact">İletişim</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid home-container pt-5 pt-lg-0" id="home">
+      <div class="container d-flex align-items-center pt-5 pt-lg-0">
+        <div class="row mt-5 mt-lg-0">
+          <div
+            class="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start gap-4 home-info text-center text-lg-start"
+          >
+            <h1>En iyi yazılım akademisi</h1>
+            <p>
+              Sizde piyasanın en iyi yazılım akademisine katılarak kaliteli bir
+              eğtim alabilirsiniz.
+            </p>
+            <div class="home-btns d-flex gap-4 align-items-center">
+              <img
+                src="./images/play.png"
+                class="img-fluid"
+                alt="play"
+                style="width: 70px"
+              />
+              <span>Bizi İzleyin !</span>
+            </div>
+          </div>
+          <div class="col-lg-6 d-md-flex justify-content-md-center">
+            <img
+              src="./images/home2.png"
+              alt="home-2"
+              class="img-fluid home-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid wawe p-0">
+      <img src="./images/wave1.png" class="img-fluid" alt="wave1 " />
+    </div>
+
+    <div class="container-fluid services-container" id="services">
+      <div class="container">
+        <div
+          class="row align-items-center justify-content-center text-center gap-5"
+        >
+          <h2>Neler Yapıyoruz ?</h2>
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-6 card-services d-flex flex-column align-items-center justify-content-center gap-3 mb-sm-4"
+            >
+              <img
+                src="./images/service1.png"
+                class="img-fluid"
+                alt="service1"
+              />
+              <h3>Hızla gelişen topluluk</h3>
+              <p>Piyasanın en aktif şirketi olarak hızla büyüyoruz</p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 card-services d-flex flex-column align-items-center justify-content-center gap-3 mb-sm-4"
+            >
+              <img
+                src="./images/service2.png"
+                class="img-fluid"
+                alt="service2"
+              />
+              <h3>Online Eğitim</h3>
+              <p>Klasik ve sıkıcı eğtim modelinin dışına çıkıyoruz</p>
+            </div>
+            <div
+              class="col-lg-4 col-md-12 mt-md-4 mt-lg-0 card-services d-flex flex-column align-items-center justify-content-center gap-3 mb-sm-4"
+            >
+              <img
+                src="./images/service3.png"
+                class="img-fluid"
+                alt="service3"
+              />
+
+              <h3>Güncel İçerikler</h3>
+              <p>Piyasayı takip ederek en iyi şekilde en günceli yakalıyoruz</p>
+            </div>
+          </div>
+          <button class="btn btns">Tüm Servisler</button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid about-container align-items-center justify-content-center text-center gap-5"
+      id="about"
+    >
+      <div class="container">
+        <div
+          class="row align-items-center justify-content-center text-center gap-5"
+        >
+          <h2>Neden Bizi Seçmelisiniz</h2>
+          <div class="row">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start gap-4 text-center text-lg-start"
+            >
+              <h5>Neden en iyiyiz</h5>
+              <ul class="text-start">
+                <li>Dürüstlükle İş Yapmaya İnanıyoruz</li>
+                <li>Dürüst İş İlkeleriyle Öne Çıkıyoruz</li>
+                <li>Dürüstlük Üzerine Kurulu İlişkile</li>
+                <li>Dürüst Geribildirim Kültürü</li>
+                <li>Dürüstlük Temelli Eğitim Metodolojileri</li>
+                <li>Güven ve Dürüstlük İle Dolu Bir Öğrenme Ortamı</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 d-md-flex justify-content-md-center">
+              <img
+                src="./images/network.png"
+                class="img-fluid home-img"
+                alt="network"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid customers-container" id="customers">
+      <div class="container">
+        <div class="row cs align-items-center justify-content-center gap-5">
+          <h2 class="text-center">Öğrencilerimiz Ne Diyor ?</h2>
+          <div class="row c">
+            <div
+              class="col-lg-4 d-flex flex-column justify-content-center gap-3 mb-sm-4 card-customers"
+            >
+              <div class="customer-card-wrapper d-flex gap-3">
+                <img src="./images/user1.png" class="img-fluid" alt="user1" />
+                <div class="customer-info d-flex flex-column">
+                  <p class="mb-0">Ferhunde İlay Üstün</p>
+                  <span>Web Developer at XYZ Company</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 d-flex flex-column justify-content-center gap-3 mb-sm-4 card-customers"
+            >
+              <div class="customer-card-wrapper d-flex gap-3">
+                <img src="./images/user2.png" class="img-fluid" alt="user2" />
+                <div class="customer-info d-flex flex-column">
+                  <p class="mb-0">Cihat Unal</p>
+                  <span>Mobile Deeveloper at ABC </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 mt-lg-0 d-flex flex-column justify-content-center gap-3 mb-sm-4 card-customers"
+            >
+              <div class="customer-card-wrapper d-flex gap-3">
+                <img src="./images/user3.png" class="img-fluid" alt="user3" />
+                <div class="customer-info d-flex flex-column">
+                  <p class="mb-0">Erhan Yılmaz</p>
+                  <span>Backend Developer at DRF </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid social-container" id="contact">
+      <div class="container">
+        <div
+          class="row align-items-center justify-content-center text-center gap-5"
+        >
+          <h2 class="text-center">Bizi Sosyal Medyadan Takip Edin !</h2>
+          <div class="social-wrap">
+            <img
+              src="./images/facebook-icon.png"
+              style="width: 60px"
+              alt=""
+              class="img-fluid"
+            />
+            <img
+              src="./images/instagram-icon.png"
+              style="width: 60px"
+              alt=""
+              class="img-fluid"
+            />
+            <img
+              src="./images/twitter-icon.png"
+              style="width: 60px"
+              alt=""
+              class="img-fluid"
+            />
+            <img
+              src="./images/whatsapp-icon.png"
+              style="width: 60px"
+              alt=""
+              class="img-fluid"
+            />
+            <img
+              src="./images/snapchat-icon.png"
+              style="width: 60px"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid wawe p-0">
+      <img src="./images/wave2.png" class="img-fluid" alt="wave2 " />
+    </div>
+    <div class="container-fluid footer-container">
+      <div class="container">
+        <div class="row footer-wrapper text-center">
+          <div class="col-lg-4 mt-5 mt-lg-0">
+            <img
+              src="./images/Udemig.png"
+              style="width: 130px"
+              alt="udemig-footer"
+            />
+            <p class="text-white">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptates similique rerum, fugit, aspernatur nihil ipsam debitis
+              sapiente quibusdam magni voluptate vitae suscipit. Sapiente
+              eveniet consequatur laudantium, iste tempora pariatur aperiam.
+            </p>
+          </div>
+          <div
+            class="col-lg-4 text-white mt-5 mt-lg-0 d-flex flex-column align-items-center justify-content-center align-items-lg-start justify-content-lg-start"
+          >
+            <h5 class="text-white mb-5">Bize Ulaşın</h5>
+            <div class="contact-card d-flex gap-3 align-items-center mt-3">
+              <i class="bx bx-map-pin"></i>
+              <span>İstanbul</span>
+            </div>
+            <div class="contact-card d-flex gap-3 align-items-center mt-3">
+              <i class="bx bx-phone"></i>
+              <span>+905559992211</span>
+            </div>
+            <div class="contact-card d-flex gap-3 align-items-center mt-3">
+              <i class="bx bx-envelope"></i>
+              <span>xyz@gmail.com</span>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5 mt-lg-0">
+            <h5 class="text-white mb-5">İletişim</h5>
+            <div class="input-box d-flex flex-column gap-3">
+              <input type="email" placeholder="enter your email" />
+              <button class="btn btns">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid copi-container">
+      <div class="container copi-wrapper">
+        <p>Udemig Tüm hakları saklıdır.</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

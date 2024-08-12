@@ -1,0 +1,265 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+   /* background-image: linear-gradient(to right, #b95dc7, #41095d); */
+body {
+    font-family: sans-serif;
+
+}
+
+.container {
+    max-width: 1100px;
+    /* background-color: red; */
+}
+
+
+
+
+.about-container, .services-container,.customers-container,.social-container,.footer-container   {
+    padding: 4rem 0rem;
+}
+
+.container h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    width: max-content;
+    
+}
+.btns {
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+    color: white;
+    font-size: .9rem;
+    border-radius: 15px;
+    padding: .5rem 1.5rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+}
+nav {
+    background-image: linear-gradient(to right, #b95dc7, #41095d);
+
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-nav a{
+    font-weight: 700;
+}
+
+
+
+.home-container {
+
+    background: linear-gradient(to right, #b95dc7, #41095d);
+  
+    color: white;
+}
+
+.home-img {
+    width: 100%;
+        max-width: 700px;
+    }
+
+.home-container .container {
+    min-height: 100vh;
+}
+
+
+.home-info h1 {
+font-weight: 700;
+font-size: 2.4rem;
+}
+
+.home-info p {
+    font-size: .9rem;
+}
+
+.wawe{
+    background:linear-gradient(to right, #b95dc7, #41095d);
+}
+
+.services-container button,h2 {
+    width: max-content;
+}
+
+
+
+.card-services img {
+max-width: 120px;
+}
+
+
+
+.about-container,.social-container{
+    background-color: #F8F9FA;
+}
+
+
+.about-container h5 {
+    font-size: 2rem;
+}
+
+.about-container ul li {
+    margin-top: .5rem;
+}
+
+
+
+.customer-card-wrapper {
+    border-left: 5px solid #41095d;
+    padding-left: .5rem;
+
+}
+
+.customer-card-wrapper img {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+.customer-info p {
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.customer-info span {
+    font-size: .7rem;
+}
+
+.social-container img {
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.social-container img:hover {
+transform: translate(0px,-10px);
+}
+
+.footer-container {
+    background:linear-gradient(to right, #b95dc7, #41095d);
+}
+
+.footer-wrapper h5 {
+font-weight: 700;
+}
+
+
+.contact-card i {
+    font-size: 2rem;
+    padding: .3rem;
+    background:linear-gradient(to right, #b95dc7, #41095d);
+}
+
+
+.input-box input {
+    padding: .5rem 1rem ;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.input-box input:focus {
+    box-shadow: 0px 0px 1px 2px black;
+}
+
+.copi-container {
+    background:linear-gradient(to right, #b95dc7, #41095d);
+}
+.copi-wrapper {
+    text-align: center;
+    padding: 1rem 0rem;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    color: white;
+    font-size: .9rem;
+}
+
+@media screen and (max-width:992px) {
+
+
+.c {
+    max-width: max-content;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.cs {
+    flex-direction: column;
+}
+
+.contact-card {
+    width: 250px;
+
+}
+.card-customers {
+    width: max-content;
+}
+    .customer-card-wrapper {
+        max-width: 265px;
+    }
+
+    .offcanvas-header,.offcanvas-body {
+        width: 100%;
+
+        padding-left: 2rem;
+    }
+    .nav-link {
+        mmargin-bottom:1rem;
+
+    }
+
+    .navbar-toggler-icon {
+        background-image: none;
+        font-size: 2.5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #708AE8;
+  
+    }
+
+
+    .navbar-toggler-icon:hover {
+        color: #7d90d4;
+    }
+    
+    .navbar-collapse {
+        background:linear-gradient(to right, #b95dc7, #41095d);
+        padding: 1rem;
+    }
+
+    .navbar-toggler:focus{
+    box-shadow: none;
+    }
+    
+    .navbar-toggler {
+    border: none;
+        padding: 0;
+    }
+    .btn-close {
+        background-image: none;
+        display: flex;
+        align-items: center;
+    justify-content: center;
+    opacity: 1;
+    }
+    
+    .btn-close:hover {
+        opacity: 1;
+    }
+    .btn-close:focus {
+        box-shadow: none;
+    }
+    .btn-close i {
+        color: #708AE8;
+        font-size: 2.5rem;
+    }
+    .btn-close i:hover {
+        color: #7d90d4;
+    }
+}
